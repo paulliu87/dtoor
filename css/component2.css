@@ -13,8 +13,9 @@ body {
 }
 
 body {
-	background: #52be7f;
-	color: #fff;
+	/*background: #52be7f;*/
+	background: : white;
+	color: black;
 }
 
 .component {
