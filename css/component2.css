@@ -40,30 +40,30 @@ body {
 }
 
 .cn-button {
-	position: absolute;
+	position: fixed;
+	background: none;
+	color: #52be7f;
+	text-align: center;
+	padding-bottom: 1.3em;
+	font-size: 1.5em;
 	top: 100%;
 	left: 50%;
 	z-index: 11;
 	margin-top: -2.25em;
 	margin-left: -2.25em;
-	padding-top: 0em;
 	width: 4.5em;
 	height: 4.5em;
 	border: none;
 	border-radius: 50%;
-	background: none;
 	background-color: #fff;
-	color: #52be7f;
-	text-align: center;
 	font-weight: 700;
-	font-size: 1.5em;
 	text-transform: uppercase;
 	cursor: pointer;
 	-webkit-backface-visibility: hidden;
 }
 
 .csstransforms .cn-wrapper {
-	position: absolute;
+	position: fixed;
 	top: 100%;
 	left: 50%;
 	z-index: 10;
@@ -117,14 +117,14 @@ body {
 
 .csstransforms .cn-wrapper li {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	overflow: hidden;
-	margin-top: -1.3em;
-	margin-left: -10em;
+	font-size: 1.5em;
 	width: 10em;
 	height: 10em;
-	font-size: 1.5em;
+	overflow: hidden;
+	left: 50%;
+	top: 50%;
+	margin-top: -1.3em;
+	margin-left: -10em;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease;
